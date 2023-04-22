@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
 PIP3="/usr/local/bin/pip3"
 
