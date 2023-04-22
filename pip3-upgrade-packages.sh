@@ -8,5 +8,5 @@ do
     printf "%s\n" $package
     # Upgrade package and it's dependencies
     $PIP3 install -U $package
-    printf "\n\n"
+    echo
 done
