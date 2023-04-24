@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# pip3 script location
 PIP3="/usr/local/bin/pip3"
 
 # Loop over each package in the output of 'pip3 list'
