@@ -1,5 +1,15 @@
 #!/bin/sh
 
+function usage() {
+    echo ""
+    echo "Usage:"
+    echo "  pip3-upgrade-packages.sh [-h]"
+    echo ""
+    echo "  -h    Display usage message"
+    echo ""
+    exit 0
+}
+
 # pip3 script location
 PIP3="/usr/local/bin/pip3"
 
