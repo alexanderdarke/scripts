@@ -13,7 +13,10 @@ Upgrade all packages installed with Pip 3, including dependencies.
 ### Usage
 
 ```text
-usage: pip3-upgrade-packages.sh
+Usage:
+  pip3-upgrade-packages.sh [-h]
+
+  -h    Display usage message
 ```
 
 ### Configuration
