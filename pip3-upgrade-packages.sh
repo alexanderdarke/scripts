@@ -10,6 +10,17 @@ function usage() {
     exit 0
 }
 
+while getopts "h" option; do
+    case $option in
+        h)
+            usage
+            ;;
+        *)
+            usage
+            ;;
+    esac
+done
+
 # pip3 script location
 PIP3="/usr/local/bin/pip3"
 
